@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5474fd13-f007-4526-b465-ec536cf827b0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>depth_calibration.py</StartupFile>
+    <StartupFile>Ra_analysis.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,7 @@
     <Compile Include="depth_calibration.py" />
     <Compile Include="energy_calibration.py" />
     <Compile Include="linearize_energy_calibration.py" />
+    <Compile Include="Ra_analysis.py" />
     <Compile Include="run_calibration.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
